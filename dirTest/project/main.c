@@ -7,7 +7,7 @@ int main(int argc, char *argv[]){
 
     if(fin == NULL){
         perror("fopen-fin fails: ");
-        exit(EXIT_FAILURE);
+        exit(EXIT_FAILURE); 
     }
 
     char buffer[64];
