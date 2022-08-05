@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "compile",
+      "setup": "",
+      "run": "cd ./dirTest/project && gcc main.c -o main",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "1",
+      "setup": "",
+      "run": "cd ./dirTest/project && ./test-main.sh -t 1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
